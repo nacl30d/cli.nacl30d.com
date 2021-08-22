@@ -1,0 +1,30 @@
+[build]
+  base = "/"
+  publish = "/"
+  command = "echo 'default context'"
+
+# A basic redirect rule
+[[redirects]]
+  from = "/"
+  to = "https://gist.githubusercontent.com/nacl30d/4e83ec268b848e2f12a1137abd59c338/raw/72e2c98d03580d9f09fac2b709c6be60b1e2a18d/index.sh"
+  status = 200
+
+[[redirects]]
+  from = "/dot"
+  to = "https://raw.githubusercontent.com/nacl30d/dotfiles/master/etc/install"
+  status = 200
+
+[[redirects]]
+  from = "/minidot"
+  to = "https://raw.githubusercontent.com/nacl30d/minidots/master/install"
+  status = 200
+
+[[redirects]]
+  from = "/setupmac"
+  to = "https://raw.githubusercontent.com/nacl30d/macos_bootstrap/master/install.sh"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "https://gist.githubusercontent.com/nacl30d/4e83ec268b848e2f12a1137abd59c338/raw/72e2c98d03580d9f09fac2b709c6be60b1e2a18d/notfound.sh"
+  status = 200
