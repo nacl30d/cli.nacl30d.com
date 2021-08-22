@@ -6,7 +6,7 @@
 # A basic redirect rule
 [[redirects]]
   from = "/"
-  to = "https://gist.githubusercontent.com/nacl30d/4e83ec268b848e2f12a1137abd59c338/raw/72e2c98d03580d9f09fac2b709c6be60b1e2a18d/index.sh"
+  to = "https://gist.githubusercontent.com/nacl30d/4e83ec268b848e2f12a1137abd59c338/raw/f81dd4975c2a83bf863dc361de28da76cde44241/index.sh"
   status = 200
 
 [[redirects]]
@@ -26,5 +26,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://gist.githubusercontent.com/nacl30d/4e83ec268b848e2f12a1137abd59c338/raw/72e2c98d03580d9f09fac2b709c6be60b1e2a18d/notfound.sh"
+  to = "https://gist.githubusercontent.com/nacl30d/4e83ec268b848e2f12a1137abd59c338/raw/f81dd4975c2a83bf863dc361de28da76cde44241/notfound.sh"
   status = 200
